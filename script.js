@@ -27,7 +27,7 @@ start.addEventListener("click", () => {
         let guessedNum = userNum.value;
         
         if(guessLeft == 0 && guessedNum == randomNum){
-            info.innerHTML = "You Won!";
+            info.innerHTML = "Congratulations You Won!";
             won();
         }
         else if(guessLeft == 0){
